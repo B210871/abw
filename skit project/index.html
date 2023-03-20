@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+        body {
+            font-size: large;
+            
+            font-family: "Sofia", sans-serif;
+        }
+        
+        .continer {
+            /* border:2px solid red; */
+            display: inline;
+        }
+        
+        .left img {
+            margin: auto;
+            width: 20%;
+            height: 84px;
+            width: 96px;
+        }
+        .continer::before{
+            content: "";
+            background: url('https://www.skit.ac.in/images/DSC_0722.JPG')no-repeat center center/cover;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            opacity: 1.8;
+            z-index: -1;
+        }
+
+        .left p {
+            position: relative;
+            top: 34px;
+            display: inline-block;
+            width: 20%;
+            margin: 20px auto;
+            height: 70px;
+        }
+
+        .mid {
+            /* left: 36%;
+            height: 65px;
+            width: 27%;
+            display: inline;
+            position: fixed;
+            top: 60px; */
+            border-radius: 70px;
+            background-color: black;
+            border: 2px solid maroon;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: absolute;
+            top: 70px;
+            left: 35%;
+            width: 30%;
+            height: 65px;
+
+        }
+
+        .right p {
+            position: fixed;
+            right: 1%;
+            top: 61px;
+            
+            display: inline-block;
+            height: 7%;
+        }
+
+        .left h3 {
+            position: relative;
+            top: 0px;
+            font-size: 30px;
+
+        }
+
+        .navbar a {
+            float: right;
+            font-size: 10%;
+            text-decoration: none;
+        }
+
+
+        .mid a:hover {
+            text-decoration: none;
+            background-color: grey;
+        }
+
+        .mid a {
+            font-size: 16px;
+            float: left;
+            margin: 14px;
+            color: red;
+        }
+
+        .mid li {
+            font-size: 100%;
+            list-style: none;
+        }
+
+        .btn {
+            font-family: "Sofia", sans-serif;
+            cursor: pointer;
+            background-color: black;
+            border-radius: 12px;
+            height: 65%;
+            color: red;
+        }
+
+        .btn:hover {
+
+            background-color: gray;
+
+
+        }
+        section{
+            margin: 20px 23px;
+            padding: 20px;
+            
+            font-size: larger;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border: 2px solid black;
+
+        }
+        h1:hover{
+            color: red;
+            cursor: pointer;
+        }
+        h3:hover{
+            color: red;
+            cursor: pointer;
+        }
+       
+        p:hover{
+            color: red;
+            cursor: pointer;
+        }
+       
+    </style>
+
+</head>
+
+<body>
+    <div class="continer">
+        <div class="left">
+            <p>
+                <img src="https://www.skit.ac.in/images/skit-logo.png" alt="">
+
+            </p>
+            <h3>SKIT COLLEGE</h3>
+        </div>
+        <div class="mid">
+            <p class="navbar">
+            <ul>
+                <li><a href="https://www.skit.ac.in/home/our-inspiration.html" target="_blank">Home</a></li>
+                <li><a href="https://www.skit.ac.in/academics.html" target="_blank">Acadmics</a></li>
+                <li><a href="https://www.skit.ac.in/contact-us.html" target="_blank">Contanct us</a></li>
+                <li><a href="https://www.skit.ac.in/feedback.html" target="_blank">Feedback</a></li>
+            </ul>
+            </p>
+        </div>
+        <div class="right">
+            <p>
+
+
+                <button class="btn">Call us</button>
+                <button class="btn">Email us</button>
+            </p>
+
+
+        </div>
+    </div>
+    <section>
+        <h1><marquee behaviour="scroll" direction="top">Welcome to SKIT College</marquee></h1>
+    <p> <marquee behaviour="scroll" direction="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempora magni eum in molestias velit harum dolor, cumque obcaecati totam, inventore laboriosam assumenda officia ipsam autem aperiam necessitatibus ducimus eveniet maiores facilis. Magnam, minima?</marquee> </p>
+    </section>
+
+
+</body>
+
+</html>
